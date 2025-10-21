@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Blog | Circuit Press</title>
+
+  <!-- Bootstrap CDN -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" crossorigin="anonymous">
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" crossorigin="anonymous"></script>
+
+  <!-- External CSS -->
+  <link rel="stylesheet" href="blog-style.css" />
+</head>
+
+<body>
+  <!-- NAVBAR -->
+  <nav>
+    <div class="nav-container">
+      <div class="logo">
+        <img src="images/logo.png" alt="Circuit Press Logo" />
+      </div>
+
+      <ul class="nav-links">
+        <li><a href="index.html">Home</a></li>
+        <li><a href="blog.html">Blog</a></li>
+        <li><a href="about.html">About</a></li>
+        <li><a href="contact.html">contact</a></li>
+      </ul>
+
+      <div>
+        <button class="login-btn" onclick="window.location.href='login.html'">Login</button>
+        <button id="themeToggle" class="login-btn">Dark/Light</button>
+      </div>
+
+      <div class="menu-btn">
+        <div></div>
+        <div></div>
+        <div></div>
+      </div>
+    </div>
+  </nav>
+
+  <!-- BLOG BANNER -->
+  <section class="blogBanner">
+    <h1>Student Tech Blog</h1>
+    <p>Read our tutorials, experiments, and notes on coding and cybersecurity. Everything is written by students, for students.</p>
+  </section>
+
+  <!-- BLOG POSTS -->
+  <section class="blogPosts">
+    <div class="postCard">
+      <h3>Intro to HTML & CSS</h3>
+      <p>We learned how to make simple pages using HTML tags and CSS styling. Here's what worked for us and tips we found useful.</p>
+      <a href="#">Read More →</a>
+    </div>
+
+    <div class="postCard">
+      <h3>Basic Cybersecurity Tips</h3>
+      <p>Notes from our first-year cybersecurity class: password safety, phishing awareness, and keeping your devices secure.</p>
+      <a href="#">Read More →</a>
+    </div>
+
+    <div class="postCard">
+      <h3>Fun JavaScript Experiments</h3>
+      <p>We tried some interactive scripts like dropdowns, simple games, and review forms. Here's what we learned from trial and error.</p>
+      <a href="#">Read More →</a>
+    </div>
+  </section>
+
+  <!-- FOOTER -->
+  <footer>
+    <p>&copy; 2025 Circuit Press | Made by Students</p>
+    <div class="socialLinks">
+      <a href="#">GitHub</a>
+      <a href="#">Twitter</a>
+      <a href="#">LinkedIn</a>
+    </div>
+  </footer>
+
+  <!-- Scroll to top button -->
+  <button id="topBtn">↑</button>
+
+  <!-- External JS -->
+  <script src="blog-script.js"></script>
+</body>
+</html>
+
+           

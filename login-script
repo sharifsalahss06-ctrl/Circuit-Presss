@@ -1,0 +1,6 @@
+const passwordInput = document.getElementById('password');
+const showPass = document.getElementById('show-pass');
+
+showPass.addEventListener('change', function() {
+  passwordInput.type = this.checked ? 'text' : 'password';
+});
