@@ -2,40 +2,52 @@
 <html lang='en'>
 <head>
 <meta charset="UTF-8">
+<!-- charset UTF-8 -->
 <meta name='viewport' content='width=device-width, initial-scale=1'>
+<!-- responsive viewport -->
 <title>Circuit Press | Home</title>
+<!-- page title -->
 <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel='stylesheet' crossorigin="anonymous">
+<!-- Bootstrap CSS -->
 <link rel='stylesheet' href="style.css">
+<!-- custom CSS -->
 </head>
 <body>
-
+<!-- navbar -->
 <nav>
 <div class='nav-container'>
-<div class="logo"><img src='images/Logo.png' alt="Circuit Press Logo"></div>
+<!-- logo -->
+<div class="logo">
+<img src='images/Logo.png' alt="Circuit Press Logo">
+</div>
+<!-- nav links -->
 <ul class="nav-links">
 <li><a href="index.html">Home</a></li>
 <li><a href='blog.html'>Blog</a></li>
 <li><a href="about.html">About</a></li>
-<li><a href='contact.html'>contact</a></li></li>
+<li><a href='contact.html'>Contact</a></li>
 </ul>
+<!-- action buttons -->
 <div>
 <button class='login-btn' onclick="window.location.href='login.html'">Login</button>
 <button id="themeToggle" class='login-btn'>Dark/Light</button>
 </div>
+<!-- mobile menu -->
 <div class="menu-btn">
-<div></div><div></div>
-<div></div>
+<div></div><div></div><div></div>
 </div>
 </div>
 </nav>
-
+<!-- banner -->
 <section class='banner'>
 <h1>Welcome to Circuit Press</h1>
-<p>Circuit Press brings the world of technology to your fingertips,
-sharing the latest news, innovations and insights in one place for curious and passionate readers.</p>
+<p>
+Circuit Press brings the world of technology to your fingertips,
+sharing the latest news, innovations and insights in one place for curious and passionate readers.
+</p>
 <a href='blog.html'>Check Out the Blog</a>
 </section>
-
+<!-- topics -->
 <section class='topics'>
 <div class="topic">
 <h3>Tech News</h3>
@@ -50,11 +62,12 @@ sharing the latest news, innovations and insights in one place for curious and p
 <p>Get expert analysis and in-depth perspectives on the trends driving the tech industry.</p>
 </div>
 </section>
-
+<!-- reviews carousel -->
 <section class='reviews'>
 <h2>Comments</h2>
 <div id='reviewCarousel' class="carousel slide" data-bs-ride="carousel">
 <div class='carousel-inner' id='carouselInner'></div>
+<!-- carousel buttons -->
 <button class="carousel-control-prev" type="button" data-bs-target='#reviewCarousel' data-bs-slide='prev'>
 <span class="carousel-control-prev-icon" aria-hidden='true'></span>
 <span class='visually-hidden'>Previous</span>
@@ -64,9 +77,10 @@ sharing the latest news, innovations and insights in one place for curious and p
 <span class="visually-hidden">Next</span>
 </button>
 </div>
+<!-- add comment button -->
 <button class='add-review' id="addReviewBtn">Add a Comment</button>
 </section>
-
+<!-- footer -->
 <footer>
 <p>&copy; 2025 Circuit Press | Made by Students</p>
 <div class="socials">
@@ -75,11 +89,11 @@ sharing the latest news, innovations and insights in one place for curious and p
 <a href='LinkedIn'>LinkedIn</a>
 </div>
 </footer>
-
+<!-- scroll top button -->
 <button id='topBtn'>↑</button>
-
+<!-- Bootstrap JS -->
 <script src='https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js' crossorigin="anonymous"></script>
+<!-- custom JS -->
 <script src="scripts.js"></script>
-
 </body>
 </html>
